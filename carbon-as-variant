@@ -1,0 +1,68 @@
+default partial alphanumeric_keys
+xkb_symbols "carbon" {
+    include "us(basic)"
+    name[Group1]= "English (Carbon)";
+
+    key <TLDE> { [     grave,      asciitilde,   VoidSymbol,   VoidSymbol ] }; // QWERTY: `
+    key <AE01> { [         1,      exclam,       VoidSymbol,   VoidSymbol ] }; // QWERTY: 1
+    key <AE02> { [         2,      at,           VoidSymbol,   VoidSymbol ] }; // QWERTY: 2
+    key <AE03> { [         3,      numbersign,   VoidSymbol,   VoidSymbol ] }; // QWERTY: 3
+    key <AE04> { [         4,      dollar,       VoidSymbol,   VoidSymbol ] }; // QWERTY: 4
+    key <AE05> { [         5,      percent,      VoidSymbol,   VoidSymbol ] }; // QWERTY: 5
+    key <AE06> { [         6,      asciicircum,  VoidSymbol,   VoidSymbol ] }; // QWERTY: 6
+    key <AE07> { [         7,      ampersand,    VoidSymbol,   VoidSymbol ] }; // QWERTY: 7
+    key <AE08> { [         8,      asterisk,     VoidSymbol,   VoidSymbol ] }; // QWERTY: 8
+    key <AE09> { [         9,      parenleft,    VoidSymbol,   VoidSymbol ] }; // QWERTY: 9
+    key <AE10> { [         0,      parenright,   VoidSymbol,   VoidSymbol ] }; // QWERTY: 0
+    key <AE11> { [ bracketleft,    braceleft,    VoidSymbol,   VoidSymbol ] }; // QWERTY: -
+    key <AE12> { [ bracketright,   braceright,   VoidSymbol,   VoidSymbol ] }; // QWERTY: =
+
+    key <AD01> { [         b,      B,            VoidSymbol,   VoidSymbol ] }; // QWERTY: Q
+    key <AD02> { [         l,      L,            VoidSymbol,   VoidSymbol ] }; // QWERTY: W
+    key <AD03> { [         d,      D,            VoidSymbol,   VoidSymbol ] }; // QWERTY: E
+    key <AD04> { [         w,      W,            VoidSymbol,   VoidSymbol ] }; // QWERTY: R
+    key <AD05> { [         z,      Z,            VoidSymbol,   VoidSymbol ] }; // QWERTY: T
+    key <AD06> { [ apostrophe,     underscore,   VoidSymbol,   VoidSymbol ] }; // QWERTY: Y
+    key <AD07> { [         f,      F,            VoidSymbol,   VoidSymbol ] }; // QWERTY: U
+    key <AD08> { [         o,      O,            VoidSymbol,   VoidSymbol ] }; // QWERTY: I
+    key <AD09> { [         u,      U,            VoidSymbol,   VoidSymbol ] }; // QWERTY: O
+    key <AD10> { [         j,      J,            VoidSymbol,   VoidSymbol ] }; // QWERTY: P
+    key <AD11> { [ semicolon,      colon,        VoidSymbol,   VoidSymbol ] }; // QWERTY: [
+    key <AD12> { [     equal,      plus,         VoidSymbol,   VoidSymbol ] }; // QWERTY: ]
+    key <BKSL> { [ backslash,      bar,          VoidSymbol,   VoidSymbol ] }; // QWERTY: \
+
+    key <AC01> { [         n,      N,            VoidSymbol,   VoidSymbol ] }; // QWERTY: A
+    key <AC02> { [         r,      R,            VoidSymbol,   VoidSymbol ] }; // QWERTY: S
+    key <AC03> { [         t,      T,            VoidSymbol,   VoidSymbol ] }; // QWERTY: D
+    key <AC04> { [         s,      S,            VoidSymbol,   VoidSymbol ] }; // QWERTY: F
+    key <AC05> { [         g,      G,            VoidSymbol,   VoidSymbol ] }; // QWERTY: G
+    key <AC06> { [         y,      Y,            VoidSymbol,   VoidSymbol ] }; // QWERTY: H
+    key <AC07> { [         h,      H,            VoidSymbol,   VoidSymbol ] }; // QWERTY: J
+    key <AC08> { [         a,      A,            VoidSymbol,   VoidSymbol ] }; // QWERTY: K
+    key <AC09> { [         e,      E,            VoidSymbol,   VoidSymbol ] }; // QWERTY: L
+    key <AC10> { [         i,      I,            VoidSymbol,   VoidSymbol ] }; // QWERTY: ;
+    key <AC11> { [     comma,      question,     VoidSymbol,   VoidSymbol ] }; // QWERTY: '
+
+    key <AB01> { [         q,      Q,            VoidSymbol,   VoidSymbol ] }; // QWERTY: Z
+    key <AB02> { [         x,      X,            VoidSymbol,   VoidSymbol ] }; // QWERTY: X
+    key <AB03> { [         m,      M,            VoidSymbol,   VoidSymbol ] }; // QWERTY: C
+    key <AB04> { [         c,      C,            VoidSymbol,   VoidSymbol ] }; // QWERTY: V
+    key <AB05> { [         v,      V,            VoidSymbol,   VoidSymbol ] }; // QWERTY: B
+    key <AB06> { [         k,      K,            VoidSymbol,   VoidSymbol ] }; // QWERTY: N
+    key <AB07> { [         p,      P,            VoidSymbol,   VoidSymbol ] }; // QWERTY: M
+    key <AB08> { [    period,      greater,      VoidSymbol,   VoidSymbol ] }; // QWERTY: ,
+    key <AB09> { [     minus,      quotedbl,     VoidSymbol,   VoidSymbol ] }; // QWERTY: .
+    key <AB10> { [     slash,      less,         VoidSymbol,   VoidSymbol ] }; // QWERTY: /
+};
+
+xkb_symbols "carbon-angle" {
+    include "us(carbon)"
+    name[Group1]= "English (Carbon, Angle Mod)";
+
+    key <AB01> { [         x,      X,            VoidSymbol,   VoidSymbol ] }; // QWERTY: Z
+    key <AB02> { [         m,      M,            VoidSymbol,   VoidSymbol ] }; // QWERTY: X
+    key <AB03> { [         c,      C,            VoidSymbol,   VoidSymbol ] }; // QWERTY: C
+    key <AB04> { [         v,      V,            VoidSymbol,   VoidSymbol ] }; // QWERTY: V
+    key <AB05> { [         q,      Q,            VoidSymbol,   VoidSymbol ] }; // QWERTY: B
+};
+
